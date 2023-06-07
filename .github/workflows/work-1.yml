@@ -11,8 +11,6 @@ jobs:
         run: echo "Hi"
       - name: sayMyName
         run: echo "${{ github.actor }}"
-      - uses: actions/checkout@v3
-
   makeTagAndRelease:
     runs-on: ubuntu-latest
     steps:
